@@ -9,8 +9,8 @@ void main() {
               title: Text('I am Rich'),
               backgroundColor: Colors.lightBlue[900],
             ),
-            backgroundColor: Colors.lightBlue[100],
+            backgroundColor: Colors.grey[900],
             body: Center(
-                child: Image.network('https://picsum.photos/250?image=9')))),
+                child: Image.asset('images/diamond.png')))),
   );
 }
