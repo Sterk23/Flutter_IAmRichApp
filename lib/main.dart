@@ -4,10 +4,13 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('Hello world'),
-      ),
-    ),
+        home: Scaffold(
+            appBar: AppBar(
+              title: Text('I am Rich'),
+              backgroundColor: Colors.lightBlue[900],
+            ),
+            backgroundColor: Colors.lightBlue[100],
+            body: Center(
+                child: Image.network('https://picsum.photos/250?image=9')))),
   );
 }
-
