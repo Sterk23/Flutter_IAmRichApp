@@ -1,6 +1,6 @@
 # i_am_rich
 
-A new Flutter application.
+A new Flutter application.This app is a part of Flutter bootcamp course on Udemy.I just want to learn about how to build crossplatform app with flutter
 
 ## Getting Started
 
